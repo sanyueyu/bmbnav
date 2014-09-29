@@ -1,0 +1,21 @@
+{
+  "name": "bmbnav",
+  "main": "bmbnav.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sanyueyu/bmbnav",
+  "authors": [
+    "sanyueyu@gmail.com"
+  ],
+  "description": "bmbnav for category",
+  "keywords": [
+    "bmbnav"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

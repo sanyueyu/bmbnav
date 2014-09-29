@@ -1,0 +1,90 @@
+.bmbnav {
+  background: #d42886;
+  height: 49px;
+}
+.bmbnav .menu-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.bmbnav .menu-item {
+  float: left;
+  position: relative;
+  margin-left: 14px;
+  padding: 0.2em 0.5em 0 0;
+  line-height: 49px;
+  color: #fff;
+  cursor: pointer;
+}
+.bmbnav .menu-item a,.bmbnav .menu-item span {
+  float: left;
+}
+.bmbnav li:hover span.more-item{
+  margin-top: 6px;
+  margin-left: -12px;
+  padding-left: 12px;
+  margin-right: -26px;
+  padding-right: 26px;
+  height: 36px;
+  vertical-align: middle;
+  line-height: 37px;
+  background: #b92476;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+}
+.bmbnav .more-arrow {
+  height: 9px;
+  width: 20px;
+  margin: 20px 0;
+  background-image: url("http://www.fitpregnancy.com/sites/fitpregnancy.com/themes/fitpregnancy/images/trans-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.bmbnav .expend .more-arrow {
+  background-position: right top;
+}
+.bmbnav .child-links {
+  display: none;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  margin-top: 49px;
+  z-index: 15;
+  background-color: #d42886;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.bmbnav .expend .child-links {display: block;}
+.bmbnav dl,.bmbnav dt,.bmbnav dd {margin:0;padding:0;}
+.bmbnav dl {
+  margin: 0 12px;
+  min-width: 250px;
+}
+.bmbnav dt {clear: both;font-size: 16px;}
+.bmbnav dd > a {
+  margin-right: 20px;
+  text-decoration: none; 
+  color: #fff;
+}
+.bmbnav dd > a:hover {
+  margin-top: 6px;
+  margin-left: -12px;
+  padding-left: 12px;
+  height: 36px;
+  vertical-align: middle;
+  line-height: 37px;
+  background: #b92476;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-right: 8px;
+  padding-right: 12px;
+}
+/* 防止错位 */
+.bmbnav dd > a:nth-child(5) {
+  clear: both;
+}
+
